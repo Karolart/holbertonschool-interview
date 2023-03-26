@@ -1,6 +1,6 @@
 # Pascal's Triangle  
 
-![logo](https://www.google.com/imgres?imgurl=https%3A%2F%2Fapply.holbertonschool.com%2Fholberton-logo.png&tbnid=0oRXeLHKzq_7mM&vet=12ahUKEwivtfXW5vj9AhXOYjABHehGB5oQMygEegUIARC6AQ..i&imgrefurl=https%3A%2F%2Fapply.holbertonschool.com%2Fauth%2Fsign_up%3Fcountry%3Dco%26locale%3Des&docid=FkY_jg5wJ2cB3M&w=409&h=128&q=holberton%20logo%20colombia&hl=en&ved=2ahUKEwivtfXW5vj9AhXOYjABHehGB5oQMygEegUIARC6AQ)  
+![logo](https://blog.holbertonschool.com/wp-content/uploads/2021/06/Fichier-13.png)  
 _______________________________________________________   
 ## 0. Pascal's Triangle  
   
