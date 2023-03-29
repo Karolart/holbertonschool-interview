@@ -1,10 +1,16 @@
-def canUnlockAll(boxes):
-    """
+#!/usr/bin/python3
+   """
     Description:
     Write a method that determines if all the boxes can be opened
     Arguments:
     boxes --> List of Lists, it contains the boxes with keys
     Reurn boolean
+    """
+
+
+def canUnlockAll(boxes):
+    """
+    code excecution 
     """
     unlocked = [0]
     for box_key, box in enumerate(boxes):
