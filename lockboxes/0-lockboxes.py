@@ -5,8 +5,7 @@
  e boxes can be opened
  """
  
-
-
+   
 def canUnlockAll(boxes):
     """
     Description:
