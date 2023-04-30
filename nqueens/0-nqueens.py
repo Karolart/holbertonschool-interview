@@ -1,22 +1,21 @@
 #!/usr/bin/python3
-""" The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard.  """
+""" The N queens puzzle ""
 import sys
-
 
 class NQueen:
     """ handless Nqueen problem """
 
     def __init__(self, n):
-        
+
         self.n = n
         self.x = [0 for i in range(n + 1)]
         self.res = []
 
     def place(self, k, i):
-        """ select the rigth place for the queen 
+        """ select the rigth place for the queen
         """
         for j in range(1, k):
-            
+
             if self.x[j] == i or \
                abs(self.x[j] - i) == abs(j - k):
                 return 0
