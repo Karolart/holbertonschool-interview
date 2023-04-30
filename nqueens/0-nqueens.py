@@ -39,9 +39,6 @@ class NQueen:
                     self.nQueen(k + 1)
         return self.res
 
-
-
-
 if len(sys.argv) != 2:
     print("Usage: nqueens N")
     sys.exit(1)
