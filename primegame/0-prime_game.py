@@ -15,7 +15,8 @@ def isWinner(x, nums):
         nums (list): Array of 'n' values for each round.
 
     Returns:
-        str or None: The name of the player that won the most rounds ('Maria' or 'Ben'),
+        str or None: The name of the player that won the most 
+        rounds ('Maria' or 'Ben'),
         or None if the winner cannot be determined.
     """
 
@@ -54,7 +55,6 @@ def isWinner(x, nums):
             if isPrime(i):
                 # Remove the prime number and its multiples
                 new_nums = [num for num in range(1, n + 1) if num % i != 0]
-                # Recursively play the game with the updated numbers and next player's turn
                 if not playGame(len(new_nums), not isMariaTurn):
                     return True
 
@@ -75,4 +75,4 @@ def isWinner(x, nums):
         return "Ben"
     else:
         return None
-    
+ 
